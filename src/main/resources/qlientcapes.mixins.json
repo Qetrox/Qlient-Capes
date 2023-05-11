@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.qlient.capes.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "CapeMixin",
+    "MenuButtonMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

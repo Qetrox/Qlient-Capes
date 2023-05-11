@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "qlientcapes",
+  "version": "1.19.4-1",
+
+  "name": "Qlient Capes",
+  "description": "Allows you to see Qlient's Capes in newer Minecraft Versions",
+  "authors": [
+    "Qetrox"
+  ],
+  "contact": {
+    "homepage": "https://qlient.net/",
+    "email": "mailto://info@qlient.net",
+    "issues": "https://curseforge.com/minecraft/mc-mods/qlient-capes/issues"
+  },
+
+  "license": "All Rights Reserved",
+  "icon": "assets/qlientcapes/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.qlient.capes.client.qlient"
+    ]
+  },
+  "mixins": [
+    "qlientcapes.mixins.json"
+  ],
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/Z8HtMdy9pR"
+      },
+      "update_checker": true
+    }
+  },
+
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric-api": "*",
+    "minecraft": "~1.19.4",
+    "java": ">=17"
+  }
+}
