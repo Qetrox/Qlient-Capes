@@ -27,7 +27,7 @@ public abstract class MenuButtonMixin extends Screen {
         this.addDrawableChild(ButtonWidget.builder(Text.of("Reload Capes"), (button) -> {
             CapeUtil.DownloadCapes();
             this.client.setScreen(new TitleScreen(this.doBackgroundFade));
-        }).dimensions(this.width / 2 - 100, y + 105, 98, 20).build());
+        }).dimensions(this.width / 2 - 100, y + 108, 98, 20).build());
 
     }
 

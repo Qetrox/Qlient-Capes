@@ -7,6 +7,8 @@ import net.qlient.capes.util.CapeUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.IOException;
+
 @Environment(EnvType.CLIENT)
 public class qlient implements ClientModInitializer {
 	public static final Logger LOGGER = LoggerFactory.getLogger("Qlient Capes");
