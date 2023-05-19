@@ -13,7 +13,7 @@ You will see a menu with all of our current capes and be able to select the cape
 To see your new cape, the mod needs to reload all the cape data.<br>
 This is done by going to the main menu, and clicking the "reload capes" button.
 
-<img src="https://qlient.net/assets/qlientcapes/images/reload capes.png" alt="Reload Capes" width="484" height="317">
+<img src="https://qlient.net/assets/qlientcapes/images/reload capes.png" alt="Reload Capes" width="799" height="455">
 
 <h3>Some capes are missing their textures, what now?</h3><br>
 This means that you have an outdated version, which does not have the new cape textures.<br>
