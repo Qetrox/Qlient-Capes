@@ -1,11 +1,6 @@
 package net.qlient.capes.util;
 
-import java.io.BufferedInputStream;
-import java.io.File;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -13,9 +8,6 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
-import net.minecraft.util.Identifier;
-import org.apache.commons.io.FileUtils;
-import net.minecraft.client.texture.NativeImage;
 
 public class CapeUtil {
 

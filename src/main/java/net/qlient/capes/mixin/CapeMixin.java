@@ -16,8 +16,8 @@ public class CapeMixin {
         Identifier originalCape = ci.getReturnValue();
         String uuid = ((AbstractClientPlayerEntity) (Object) this).getGameProfile().getId().toString();
 
-        String CapeCode = new String(CapeUtil.CheckCape(uuid));
-        String NoneCode = new String("NONE");
+        String CapeCode = CapeUtil.CheckCape(uuid);
+        String NoneCode = "NONE";
 
         if(CapeCode.equals(NoneCode)) {
             ci.setReturnValue(originalCape);
