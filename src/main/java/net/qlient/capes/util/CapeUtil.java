@@ -8,6 +8,8 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
+import com.mojang.authlib.GameProfile;
+import net.minecraft.util.Identifier;
 
 public class CapeUtil {
 
@@ -37,5 +39,18 @@ public class CapeUtil {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public static Identifier getQlientCapeLocation(GameProfile profile, Identifier originalCape) {
+        String uuid = profile.getId().toString();
+
+        String CapeCode = CapeUtil.CheckCape(uuid);
+        String NoneCode = "NONE";
+
+        if (CapeCode.equals(NoneCode)) {
+            return originalCape;
+        }
+
+        return new Identifier("qlientcapes:capes/" + CapeCode.toLowerCase() + ".png");
     }
 }

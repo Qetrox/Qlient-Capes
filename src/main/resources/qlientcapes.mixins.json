@@ -6,8 +6,9 @@
   "mixins": [
   ],
   "client": [
-    "CapeMixin",
-    "MenuButtonMixin"
+    "CapeFeatureRendererMixin",
+    "MenuButtonMixin",
+    "PlayerSkinProviderMixin"
   ],
   "injectors": {
     "defaultRequire": 1

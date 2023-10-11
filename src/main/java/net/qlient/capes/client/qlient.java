@@ -14,7 +14,7 @@ import java.io.IOException;
 public class qlient implements ClientModInitializer {
 	public static final Logger LOGGER = LoggerFactory.getLogger("Qlient Capes");
 
-	public static String VERSION = "1.1.0";
+	public static String VERSION = "1.2.0";
 
 	@Override
 	public void onInitializeClient() {
